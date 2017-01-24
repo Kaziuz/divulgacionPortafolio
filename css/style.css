@@ -1,0 +1,105 @@
+
+@-moz-keyframes mover {
+	0%   {  -moz-transform: translate(-150px, 0px);} 
+	100% {  -moz-transform: translate(1800px, 0px);}
+}
+
+@-webkit-keyframes mover {
+	0%   {  -webkit-transform: translate(-150px, 0px);} 
+	100% {  -webkit-transform: translate(1800px, 0px);}
+}
+
+@-webkit-keyframes mover-fuegob {
+	0%	 { -webkit-transform: rotate(-17deg);}
+	20%  {  -webkit-transform: rotate(0deg);} 
+	60% {  -webkit-transform: rotate(17deg);}
+	80% {  -webkit-transform: rotate(0deg);}
+	100% {  -webkit-transform: rotate(17deg);}
+}
+
+@-moz-keyframes mover-fuegob {
+	0%	 { -moz-transform: rotate(-17deg);}
+	20%  {  -moz-transform: rotate(0deg);} 
+	60% {  -moz-transform: rotate(17deg);}
+	80% {  -moz-transform: rotate(0deg);}
+	100% {  -moz-transform: rotate(17deg);}
+}
+
+@-moz-keyframes mover-fuegoa {
+	0%	 { -moz-transform: rotate(0deg);}
+	20%  {  -moz-transform: rotate(17deg);} 
+	60% {  -moz-transform: rotate(0deg);}
+	80% {  -moz-transform: rotate(-17deg);}
+	100% {  -moz-transform: rotate(0deg);}
+}
+
+@-webkit-keyframes mover-fuegoa {
+	0%	 { -webkit-transform: rotate(0deg);}
+	20%  {  -webkit-transform: rotate(17deg);} 
+	60% {  -webkit-transform: rotate(0deg);}
+	80% {  -webkit-transform: rotate(-17deg);}
+	100% {  -webkit-transform: rotate(0deg);}
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 420px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.centrar{
+    padding-top: 220px;
+}
+
+.alargar{
+    height: 720px;
+}
+
+.bajar{
+    margin-top: 176px;
+}
